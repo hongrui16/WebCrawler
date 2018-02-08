@@ -1,1 +1,13 @@
 这是一个python网络爬虫相关的集合
+
+     登陆github，创建一个repo项目
+
+　　（2） 在自己项目工程目录下面运行git init
+
+　　（3） 然后将工程下面的所有需要的代码和配置添加到git，命令：git add *.cpp *.h CMakeLists.txt（根据自己的需要添加）
+
+　　（4） 然后运行git commit -m "log message（自己的提交日志）"，注意这里一定要加-m，加上提交日志，否则其实提交是不成功的，在后面的push操作中会提示错误：“error: src refspec master does not match any.”，主要就是在这一步浪费了比较多的时间。
+
+　　（5） 然后再运行git remote add origin https://github.com/xxx/xxx.git，在github上面添加origin
+
+　　（6） 最后提交我们指定的代码，命令：git push -u origin master，然后git会提示你输入你github上面的用户名和密码，然后会进入一个文件上传的界面，上传完成结束。
